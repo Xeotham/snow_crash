@@ -3,7 +3,7 @@ When we started the level02, in the home of the user we found the file:
 ```bash
 ----r--r-- 1 flag02 level02 8302 Aug 30  2015 level02.pcap
 ```
-.pcap files contains TCP conversations.
+**level02.pcap** files contains TCP conversations.
 We then used and installed Wireshark to visualize packets:
 
 By turning on Analyze -> Follow -> TCP Streams, we got:
@@ -78,4 +78,4 @@ To see the password correctly we turned Hex Dump:
 
 7F is corresponding to the del caracter, we then deleted caracters before it.
 
-We then got "ft_waNDReL0L" which is the password for the flag02 user.
+We then got **"ft_waNDReL0L"** which is the password for the flag02 user.
