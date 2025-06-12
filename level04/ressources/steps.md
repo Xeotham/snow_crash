@@ -1,6 +1,6 @@
 When we started the level04, in the home of the user we found the perl file **level04.pl**
 
-it looks like this:
+It looks like this:
 ```perl
 #!/usr/bin/perl
 # localhost:4747
