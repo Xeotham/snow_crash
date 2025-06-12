@@ -1,4 +1,4 @@
-When we started the level02, in the home of the user we found the binary **level03**
+When we started the level03, in the home of the user we found the binary **level03**
 
 it prints:
 ```bash
