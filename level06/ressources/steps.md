@@ -1,6 +1,6 @@
 When we started the level06, in the home of the user we found the two files:
 - **level06** which is a binary file.
-- **level06.php** whichh is the source of the binary.
+- **level06.php** which is the source of the binary.
 
 Here are permissions:
 ```bash
@@ -20,7 +20,7 @@ $r = x($argv[1], $argv[2]); print $r;
 ?>
 ```
 
-It use regext to modify a string.
+It use regex to modify a string.
 The important part is "``preg_replace("/(\[x (.*)\])/e", "y(\"\\2\")", $a)``".
 In PhP, the /e regex balise is used to evaluate what we pars as a command.
 
